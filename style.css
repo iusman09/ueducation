@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@300;400&family=Poppins:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.logo img {
+    width: 33%;
+    border: 3px solid rgb(160, 160, 226);
+    border-radius: 50px;
+    background-color: white;
+}
+
+.nav-list {
+
+    width: 97%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+
+
+.rightNav {
+
+
+    width: 50%;
+    text-align: right;
+    padding: 0px 23px;
+}
+
+
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 9px;
+
+}
+
+.burger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+    display: none;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 2px;
+    margin: 5px 4px;
+}
+
+.background {
+    /* background: rgba(0, 0, 0, 0.7) url('../img/background.jpg'); */
+    background: url('background.jpg');
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-position: initial;
+
+
+
+}
+
+
+/* section */
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    max-width: 60%;
+    height: 80%;
+}
+
+.firstSection {
+    height: 30vw;
+}
+
+.secondHalf {}
+
+.secondHalf img {
+    width: 60%;
+    border: 2px solid grey;
+    border-radius: 150px;
+    margin: auto;
+    display: block;
+    background-color: white;
+
+
+}
+
+.text-big {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.text-small {
+    font-size: 18px;
+
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 7px 0;
+    /* border: 1px solid white; */
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* section2 */
+
+.secondSection {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.secondSectionLeft {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+.secondSectionLeft p {
+    padding: 5px 43px;
+
+}
+
+.secondSectionRight {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secondSectionRight img {
+    width: 50%;
+    border-radius: 9px;
+    border: 2px solid white;
+
+}
+
+hr {
+    background-color: black;
+    margin: 0px 10%;
+    border: 1px solid rgb(226, 205, 205);
+}
+
+/* third section */
+
+.thirdSection {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.thirdSectionRight {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+.thirdSectionRight p {
+    padding: 5px 43px;
+
+}
+
+.thirdSectionLeft {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.thirdSectionLeft img {
+    width: 40%;
+    border-radius: 9px;
+    border: 2px solid white;
+
+}
+
+
+/* fourthSection */
+
+.fourthSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url('contact.webp');
+    background-size: cover;
+    height: 500px;
+
+}
+
+.fourthSection h3 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 33px;
+}
+
+.fourthSection .contact input {
+    display: block;
+    width: 100%;
+    margin: 40px 0px;
+    padding: 12px 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
+
+
+.fourthSection .contact textarea {
+
+
+    display: block;
+    border: 2px solid white;
+    border-radius: 10px;
+
+
+}
+
+.btn-contact {
+    width: 40%;
+    margin: 20px 40px;
+    margin-left: 70px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(62, 107, 62);
+
+}
+
+
+.footer-information {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+}
+
+.footer-information p {
+    padding: 6px 0px;
+    margin-top: 5px;
+
+}
+
+
+/* responsive */
+
+@media only screen and (max-width:1190px) {}
+
+@media only screen and (max-width:1094px) {
+
+    .secondSectionRight {
+        width: 60%;
+    }
+
+    .secondSectionLeft {
+        width: 70%;
+    }
+
+    .thirdSectionLeft {
+        width: 60%;
+    }
+
+    .thirdSectionRight {
+        width: 70%;
+    }
+
+
+}
+
+@media only screen and (max-width:1023px) {
+    .secondSection {
+        flex-direction: column;
+        height: 25%;
+    }
+
+    .thirdSection {
+        flex-direction: column;
+        height: 25%;
+    }
+}
+
+@media only screen and (max-width:953px) {
+    .navbar {
+        flex-direction: column;
+        height: 447px;
+    }
+
+    .nav-list {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:953px) {
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav {
+        height: 72px;
+    }
+
+    .v-class {
+        opacity: 0;
+    }
+
+    .navbar {
+
+        transition: all 0.5s ease-out;
+    }
+
+}
+
+@media only screen and (max-width:1162px) {
+    .firstSection {
+        height: 90vh;
+    }
+}
+
+
+
+
+@media only screen and (max-width:948px) {
+
+    .box-main {
+        flex-direction: column;
+    }
+
+    .secondHalf img {
+        width: 40%;
+        margin: 30px;
+    }
+}
+
+
+@media only screen and (max-width:600px) {
+    .text-big {
+        font-size: 1.5rem;
+    }
+    .secondSectionLeft {
+        width: 90%;
+      }
+      .secondSectionRight img {
+    width: 1005%;  
+    }
+
+    .thirdSectionRight {
+        width: 90%;
+      }
+
+      .thirdSectionLeft img {
+        width: 1005%;  
+        }
+}
+
+
